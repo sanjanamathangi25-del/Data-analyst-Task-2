@@ -1,0 +1,19 @@
+# Product Sales Data
+
+products = ["Mobile", "Laptop", "Tablet", "Watch"]
+sales = [5000, 8000, 3000, 4000]
+
+print("PRODUCT SALES REPORT")
+print("--------------------")
+
+for i in range(len(products)):
+    print(products[i], ":", sales[i])
+
+print("\nSALES BAR CHART")
+print("--------------------")
+
+for i in range(len(products)):
+    print(products[i], "*" * (sales[i] // 1000))
+
+print("\nHighest Sales: Laptop")
+print("Lowest Sales: Tablet")
